@@ -4,8 +4,8 @@ This repository contains Dockerfile and docker-compose.yml file to quickly deplo
 ```bash
 sudo apt update
 sudo apt install docker docker-compose
-git clone [INSER REPO HERE]
-cd [REPO FOLDER]
+git clone https://github.com/WalkerPM/q3ded-docker.git
+cd q3ded-docker/
 Copy PAK0 to files/baseq3
 sudo docker-compose build
 sudo docker-compose up -d`

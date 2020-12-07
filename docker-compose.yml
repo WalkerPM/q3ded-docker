@@ -1,0 +1,12 @@
+version: "0.1"
+   
+services:
+  server:
+    build: . 
+   #image: unlim-it/q3a-server
+    volumes:
+      - ./files:/root/.q3a/
+    ports:
+      - "27960:27960/udp"
+
+

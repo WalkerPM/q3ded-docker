@@ -8,5 +8,5 @@ git clone https://github.com/WalkerPM/q3ded-docker.git
 cd q3ded-docker/
 Copy PAK0 to files/baseq3
 sudo docker-compose build
-sudo docker-compose up -d`
+sudo docker-compose up -d
 ```

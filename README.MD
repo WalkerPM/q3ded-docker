@@ -7,6 +7,7 @@ sudo apt install docker docker-compose
 git clone https://github.com/WalkerPM/q3ded-docker.git
 cd q3ded-docker/
 Copy PAK0 to files/baseq3
+edit files/baseq3/server.cfg and configure according commentaries
 sudo docker-compose build
 sudo docker-compose up -d
 ```
